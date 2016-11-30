@@ -9,7 +9,7 @@ var fs = require('fs');
  */
 var root = __dirname + 'case/',
 	distMd = 'list.md';
-	url = 'https://airen.github.io/DemoHouse/';
+	url = 'https://github.com/Keystion/DemoHouse';
 
 
 //
