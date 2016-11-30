@@ -7,7 +7,7 @@ var fs = require('fs');
  * distMd 	目标md文件名
  * url 		供用于访问的项目地址
  */
-var root = __dirname,
+var root = __dirname + 'case/',
 	distMd = 'list.md';
 	url = 'https://airen.github.io/DemoHouse/';
 

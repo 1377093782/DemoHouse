@@ -23,8 +23,14 @@ If you want to generate a list automatically, you can move the `pre-commit` to `
 ## How to build a index.html
 
 ```
-npm i 
-npm start
+# 安装依赖
+npm i
+
+# 构建程序
+npm run build
+
+# 启动serve，预览
+npm run serve
 ```
 
 ## License
