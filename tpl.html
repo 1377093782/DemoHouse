@@ -23,6 +23,9 @@
     .rounded-list a:hover { background: #eee;}
     .rounded-list a:hover:before { transform: rotate(360deg);}
     .rounded-list a:before { content: counter(li); counter-increment: li; position: absolute; left: -1.3em; top: 50%; margin-top: -1.3em; background: #87ceeb; height: 2em; width: 2em; line-height: 2em; border: .3em solid #fff; text-align: center; font-weight: bold; border-radius: 2em; transition: all .3s ease-out;}
+    .rounded-list a:visited:after{ color: green; }
+    .rounded-list a:hover:after{ color: #eee; }
+    .rounded-list a:after { content: "已阅"; display: block; position: absolute; right: 0.5em; top: 0; height: 2em; line-height: 2em; color: #ddd; text-shadow: none;}
     @media only screen and (max-width: 959px) {
         .rounded-list li { margin: 0 2%; -webkit-flex-basis: 20%; flex-basis: 20%;}
     }
